@@ -77,7 +77,7 @@ class GameScene: SKScene
         self.sprite?.zRotation -= self.spriteSpeed * 0.025
         
         self.sprite?.zPosition = 1
-        self.sprite?.color = UIColor.init(red: 0.0, green: 1.0, blue: 0.0, alpha: 0.5)
+        self.sprite?.color = UIColor.init(red: 1.0, green: 0.0, blue: 1.0, alpha: 0.5)
         self.sprite?.setScale(1.5)
     }
     
